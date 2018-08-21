@@ -21,6 +21,7 @@ cm_darkg2orange = [cm_darkg2lightg;cm_lightg2orange];
 figure (1);
 colormap (cm_darkg2orange);
 colorbar
+caxis([-10,10]);
 
 close;
 
